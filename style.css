@@ -64,6 +64,19 @@ div.single-result h2 {
   margin-bottom: 0;
 }
 
+div.no-cover {
+  width: 100%;
+  height: 100%;
+  background-color: #e0e0e0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #666;
+  border-radius: 4px;
+}
+
 @media (max-width: 450px) {
   section.results {
     grid-gap: 16px 16px;
